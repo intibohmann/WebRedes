@@ -43,51 +43,6 @@ comandos nativos do Windows e informações já disponíveis no sistema operacio
 
 ### Coleta de redes Wi-Fi
 
-A detecção de redes Wi-Fi utiliza o comando: # Plataforma Web para Monitoramento Passivo e Avaliação de Segurança de Redes em Ambiente Windows
-
-## Visão Geral
-
-Esta aplicação consiste em uma **plataforma web local** desenvolvida para
-**monitoramento passivo de redes Wi-Fi em ambiente Windows**, com foco na
-coleta de informações expostas pelo sistema operacional, análise
-configuracional e **avaliação básica da postura de segurança da rede**.
-
-O projeto integra conhecimentos de **redes de computadores**, **segurança da informação**,
-**programação web** e **automação**, utilizando PHP, PowerShell e tecnologias web
-tradicionais, respeitando as limitações técnicas e de segurança do sistema operacional Windows.
-
----
-
-## Tecnologias Utilizadas
-
-- **Frontend:** HTML5, CSS3  
-- **Backend:** PHP  
-- **Sensor:** PowerShell (Windows)  
-- **Comunicação:** HTTP (localhost)  
-- **Sistema Operacional:** Windows 10 / Windows 11  
-
----
-
-## Arquitetura da Aplicação
-
-A aplicação segue um modelo **cliente-servidor local**, composto por:
-
-- Interface web em PHP responsável por disponibilizar o sensor PowerShell
-- Sensor PowerShell executado localmente no sistema Windows do usuário
-- Envio de dados via HTTP POST para o backend
-- Backend responsável por validar e persistir os dados em arquivos JSON
-
-Todo o processamento ocorre **localmente**, não havendo envio de dados para servidores externos.
-
----
-
-## Coleta de Dados
-
-A coleta de informações é realizada de forma **estritamente passiva**, utilizando
-comandos nativos do Windows e informações já disponíveis no sistema operacional.
-
-### Coleta de redes Wi-Fi
-
 A detecção de redes Wi-Fi utiliza o comando: netsh wlan show networks mode=bssid
 
 Para mitigar limitações de cache de drivers Wi-Fi, o sensor executa
