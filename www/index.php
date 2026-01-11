@@ -45,14 +45,19 @@
 
     <p>
     1. Baixe o sensor PowerShell (Wi-Fi) <br>
-    2. Abra o arquivo baixado (provavelmente será aberto no bloco de notas)<br>
+    2. Abra o arquivo baixado e copie todo o seu conteúdo com "ctr + c"<br>
     3. Abra o PowerShell através do atalho 'Win + r', digite powershell, e pressione Enter<br>
-    4. Cole o conteúdo do arquivo no PowerShell e pressione Enter<br>
-    5. Aguarde a coleta dos dados e o envio para o servidor (Demora cerca de 15 segundos)<br>
+    4. Cole o conteúdo do arquivo com "ctr + v" no PowerShell e pressione Enter<br>
+    5. Aguarde a coleta dos dados e o envio para o servidor (Demora cerca de 15 segundos)<br><br>
+        Após a execução, os dados coletados serão enviados para o servidor
+    para análise e geração de relatórios.
+
     </p>
+  
+
 
     <footer>
-        Projeto acadêmico – Monitoramento Passivo e Segurança de Redes
+        Projeto de aprendizado – Monitoramento Passivo e Segurança de Redes
     </footer>
 </div>
 
